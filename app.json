@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "S-BarCodeScanner",
+    "slug": "S-BarCodeScanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-mob.png",
+    "splash": {
+      "image": "./assets/icon-mob.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"com.satvik.SBarCodeScannerApp",
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-mob.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon-mob.png"
+    }
+  }
+}
